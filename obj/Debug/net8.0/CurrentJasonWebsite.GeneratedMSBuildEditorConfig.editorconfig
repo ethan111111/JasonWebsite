@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CurrentJasonWebsite
+build_property.RootNamespace = CurrentJasonWebsite
+build_property.ProjectDir = C:\Users\ejnic\OneDrive\Desktop\Incubator\CurrentJasonWebsite\CurrentJasonWebsite\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ejnic\OneDrive\Desktop\Incubator\CurrentJasonWebsite\CurrentJasonWebsite
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/ejnic/OneDrive/Desktop/Incubator/CurrentJasonWebsite/CurrentJasonWebsite/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ejnic/OneDrive/Desktop/Incubator/CurrentJasonWebsite/CurrentJasonWebsite/Views/Home/Analysis.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbmFseXNpcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ejnic/OneDrive/Desktop/Incubator/CurrentJasonWebsite/CurrentJasonWebsite/Views/Home/ChurchInfoDisplay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaHVyY2hJbmZvRGlzcGxheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ejnic/OneDrive/Desktop/Incubator/CurrentJasonWebsite/CurrentJasonWebsite/Views/Home/EditAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0QWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ejnic/OneDrive/Desktop/Incubator/CurrentJasonWebsite/CurrentJasonWebsite/Views/Home/EditAnalysis.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0QW5hbHlzaXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ejnic/OneDrive/Desktop/Incubator/CurrentJasonWebsite/CurrentJasonWebsite/Views/Home/EditChurch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0Q2h1cmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ejnic/OneDrive/Desktop/Incubator/CurrentJasonWebsite/CurrentJasonWebsite/Views/Home/EditSources.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0U291cmNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ejnic/OneDrive/Desktop/Incubator/CurrentJasonWebsite/CurrentJasonWebsite/Views/Home/EditTableOfContents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0VGFibGVPZkNvbnRlbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ejnic/OneDrive/Desktop/Incubator/CurrentJasonWebsite/CurrentJasonWebsite/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ejnic/OneDrive/Desktop/Incubator/CurrentJasonWebsite/CurrentJasonWebsite/Views/Home/Sources.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb3VyY2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ejnic/OneDrive/Desktop/Incubator/CurrentJasonWebsite/CurrentJasonWebsite/Views/Home/TableOfContents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUYWJsZU9mQ29udGVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ejnic/OneDrive/Desktop/Incubator/CurrentJasonWebsite/CurrentJasonWebsite/Views/Login/AdminLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQWRtaW5Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ejnic/OneDrive/Desktop/Incubator/CurrentJasonWebsite/CurrentJasonWebsite/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ejnic/OneDrive/Desktop/Incubator/CurrentJasonWebsite/CurrentJasonWebsite/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ejnic/OneDrive/Desktop/Incubator/CurrentJasonWebsite/CurrentJasonWebsite/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ejnic/OneDrive/Desktop/Incubator/CurrentJasonWebsite/CurrentJasonWebsite/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ejnic/OneDrive/Desktop/Incubator/CurrentJasonWebsite/CurrentJasonWebsite/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qd7lowyqfx

@@ -1,0 +1,82 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+
+<div class="text-center">
+    <h2>About and Contact</h2>
+</div>
+
+<div class="overall-container">
+    <div class="about-profile-block">
+        <img src="~/images/fillerProfilePic.jpg" />
+        <h3>Jason Wollschleger</h3>
+        <p class="editable">(Maybe some things about Jason here)</p>
+        <p class="editable">(Desired contact info here)</p>
+        <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Submit a Case Here</a>
+    </div>
+
+    <div class="about-mission-statement">
+        <h3>Mission Statement</h3>
+        <p class="editable">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+    </div>
+</div>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <button id="toggleEditMode">Edit Mode</button>
+    <button id="saveChanges" style="display: none;">Save Changes</button>
+}
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let editMode = false;
+        let toggleButton = document.getElementById("toggleEditMode");
+        let saveButton = document.getElementById("saveChanges");
+
+        if (toggleButton) {
+            toggleButton.addEventListener("click", function () {
+                editMode = !editMode;
+                let elements = document.querySelectorAll(".editable");
+
+                elements.forEach(function (element) {
+                    if (editMode) {
+                        let textarea = document.createElement("textarea");
+                        textarea.value = element.innerText;
+                        textarea.className = "editable";
+                        element.replaceWith(textarea);
+                    } else {
+                        let newP = document.createElement("p");
+                        newP.innerText = element.value;
+                        newP.className = "editable";
+                        element.replaceWith(newP);
+                    }
+                });
+
+                toggleButton.style.display = editMode ? "none" : "block";
+                saveButton.style.display = editMode ? "block" : "none";
+            });
+
+            saveButton.addEventListener("click", function () {
+                let elements = document.querySelectorAll(".editable");
+
+                let data = [];
+                elements.forEach(function (element) {
+                    data.push(element.value || element.innerText);
+                });
+
+                fetch('/Home/SaveText', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ texts: data })
+                }).then(response => response.json())
+                .then(data => {
+                    console.log(" Changes Saved:", data);
+                    location.reload(); // Refresh to reflect changes
+                }).catch(error => console.error(" Error saving:", error));
+            });
+        }
+    });
+</script>

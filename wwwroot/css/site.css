@@ -1,0 +1,163 @@
+/*General CSS*/
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: var(--background-color);
+}
+
+.overall-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: var(--content-window-main-size);
+    margin: auto;
+    background: var(--primary-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*Tab Title CSS*/
+.page-title{
+    text-align: center;
+    margin: 20px;
+    color: var(--secondary-color);
+}
+
+/*Home Page CSS*/
+/*.home-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: var(--content-window-main-size);
+    margin: auto;
+    background: var(--primary-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}*/
+
+.home-side-bar {
+    flex: 1;
+    border-radius: 10px;
+    margin-right: 5%;
+    padding: 1%;
+    background: var(--tertiary-color);
+}
+
+.home-map-box {
+    flex: 4;
+    padding: 1%;
+    background: var(--tertiary-color);
+}
+
+/*Analysis CSS*/
+
+/*Table of Contents CSS*/
+/*.table-of-contents-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: var(--content-window-main-size);
+    margin: auto;
+    background: var(--primary-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+}
+
+.table-of-contents-column {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 45%;
+    background: var(--tertiary-color);
+    padding: 5%;
+}
+
+.table-of-contents-column a {
+    text-decoration: none;
+    color: #007BFF;
+    margin: 5px 0;
+}
+
+
+/*Sources CSS*/
+/*.sources-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: var(--content-window-main-size);
+    margin: auto;
+    background: var(--primary-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}*/
+
+/*About and Contact CSS*/
+.about-container {
+    display: flex;
+    max-width: var(--content-window-main-size);
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--primary-color);
+}
+
+.about-profile-block {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--tertiary-color);
+    border-radius: 10px;
+}
+
+    .about-profile-block img {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 10%;
+        margin-bottom: 10px;
+    }
+
+.about-mission-statement {
+    flex: 2;
+    padding: 20px;
+    text-align: left;
+
+}
+
+
+/*Admin Login CSS*/
+.login-block{
+    width: 25%;
+    max-width: 600px;
+    padding: 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: var(--tertiary-color);
+}
+
+.login-sub-block {
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+}
+

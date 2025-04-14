@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Admin Login";
+}
+
+<div>
+    <h2 class="page-title">Administrator Login</h2>
+
+    <div class="overall-container">
+        <div class="login-block">
+            <div class="login-sub-block">
+                @if (ViewBag.Error != null)
+                {
+                    
+                }
+
+                <form method="post">
+                    <label>Username:</label>
+                    <input type="text" name="username" required />
+                    <br />
+
+                    <label>Password:</label>
+                    <input type="password" name="password" required />
+                    <br />
+
+                    <button type="submit">Login</button>
+                </form>
+        </div>
+    </div>
+</div>
