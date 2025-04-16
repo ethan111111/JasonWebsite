@@ -1,0 +1,39 @@
+﻿@model IEnumerable<CurrentJasonWebsite.Models.Church>
+
+@{
+    ViewData["Title"] = "All Churches";
+}
+
+<h2 class="mb-4">Church Directory</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">No churches found.</div>
+}
+else
+{
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        @foreach (var church in Model)
+        {
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    @if (church.ImageData != null)
+                    {
+                        var base64 = Convert.ToBase64String(church.ImageData);
+                        <img src="data:image/png;base64,@base64" class="card-img-top" alt="Church Image" />
+                    }
+                    else
+                    {
+                        <img src="~/images/fillerProfilePic.jpg" class="card-img-top" alt="No Image" />
+                    }
+
+                    <div class="card-body">
+                        <h5 class="card-title">@church.ChurchName</h5>
+                        <p class="card-text text-muted">@church.Location</p>
+                        <p class="card-text">@church.Description</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

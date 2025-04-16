@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Submit Church";
+}
+
+<h2>Submit Church</h2>
+
+<form asp-action="UploadChurch" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label>Name</label>
+        <input type="text" name="churchName" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Description</label>
+        <input type="text" name="description" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Location</label>
+        <input type="text" name="location" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Upload Image</label>
+        <input type="file" name="imageFile" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

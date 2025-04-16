@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cxYiqDOSJIqhqQ1yzTNCDWeLIJZ3/ZK4OfMewj6ko5Q=",
+  "Hash": "U6H44If1goPmdguecOgxlfYWDkVlrJhNe+9+aPNdNuU=",
   "Source": "CurrentJasonWebsite",
   "BasePath": "_content/CurrentJasonWebsite",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\ejnic\\OneDrive\\Desktop\\Incubator\\CurrentJasonWebsite\\CurrentJasonWebsite\\wwwroot\\css\\testStyle.css",
+      "SourceId": "CurrentJasonWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ejnic\\OneDrive\\Desktop\\Incubator\\CurrentJasonWebsite\\CurrentJasonWebsite\\wwwroot\\",
+      "BasePath": "_content/CurrentJasonWebsite",
+      "RelativePath": "css/testStyle#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "33y7v82341",
+      "Integrity": "TydG+xzLHpVsJcWSZiKxVvxzGMGKgrhMjfj/f1SCcIo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\testStyle.css"
     },
     {
       "Identity": "C:\\Users\\ejnic\\OneDrive\\Desktop\\Incubator\\CurrentJasonWebsite\\CurrentJasonWebsite\\wwwroot\\favicon.ico",
@@ -1523,6 +1544,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-htecwY8uR8ncq23UXnwFbphQ1b0NZ7Jb5IBE+XkA9QM="
+        }
+      ]
+    },
+    {
+      "Route": "css/testStyle.33y7v82341.css",
+      "AssetFile": "C:\\Users\\ejnic\\OneDrive\\Desktop\\Incubator\\CurrentJasonWebsite\\CurrentJasonWebsite\\wwwroot\\css\\testStyle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TydG+xzLHpVsJcWSZiKxVvxzGMGKgrhMjfj/f1SCcIo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 23:31:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "33y7v82341"
+        },
+        {
+          "Name": "label",
+          "Value": "css/testStyle.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TydG+xzLHpVsJcWSZiKxVvxzGMGKgrhMjfj/f1SCcIo="
+        }
+      ]
+    },
+    {
+      "Route": "css/testStyle.css",
+      "AssetFile": "C:\\Users\\ejnic\\OneDrive\\Desktop\\Incubator\\CurrentJasonWebsite\\CurrentJasonWebsite\\wwwroot\\css\\testStyle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TydG+xzLHpVsJcWSZiKxVvxzGMGKgrhMjfj/f1SCcIo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 23:31:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TydG+xzLHpVsJcWSZiKxVvxzGMGKgrhMjfj/f1SCcIo="
         }
       ]
     },

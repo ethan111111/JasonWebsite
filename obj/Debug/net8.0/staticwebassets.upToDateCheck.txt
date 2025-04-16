@@ -1,5 +1,6 @@
 wwwroot\css\ColorStyles.css
 wwwroot\css\site.css
+wwwroot\css\testStyle.css
 wwwroot\favicon.ico
 wwwroot\images\fillerProfilePic.jpg
 wwwroot\js\site.js

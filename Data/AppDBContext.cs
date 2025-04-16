@@ -19,6 +19,8 @@ namespace PostgreSQL.Data
             options.UseNpgsql(Configuration.GetConnectionString("WebApiDatabase"));
         }
 
-        DbSet<TextBlockModel> TextBlocks { get; set; }
+        public DbSet<TextBlockModel> TextBlocks { get; set; }
+
+        public DbSet<Church> Churches { get; set; }
     }
 }

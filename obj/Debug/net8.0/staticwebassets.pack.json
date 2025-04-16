@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\ejnic\\OneDrive\\Desktop\\Incubator\\CurrentJasonWebsite\\CurrentJasonWebsite\\wwwroot\\css\\testStyle.css",
+      "PackagePath": "staticwebassets\\css\\testStyle.css"
+    },
+    {
       "Id": "C:\\Users\\ejnic\\OneDrive\\Desktop\\Incubator\\CurrentJasonWebsite\\CurrentJasonWebsite\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
